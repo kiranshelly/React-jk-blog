@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog previews / list */
+.title{
+  margin:20px;
+  text-align:center;
+}
+.blog-preview {
+  padding: 15px 15px;
+  margin: 20px 0;
+  width:100px;
+  border-bottom: 1px solid #d07d7d;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Edit and Delete */
+.edit-title{
+  padding:20px;
+}
+.edit-blog{
+width:100%;
+}
+.edit-blog button{
+  padding:8px;
+  margin-left:10px;
+  background-color: #f1356d;
+  border-radius: 8px;
+  border: transparent;
+  font-size:18px;
+  color:white
+}
+.edit-text{
+  width:100%;
+  height:300px;
+
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  position: relative;
+  width: 500px;
+  height:auto;
+}
+
+.input-text{
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  width: 500px;
+  height:200px;
+}
+.text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.card-1 {
+  padding:30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}  
+
+
+.delete-edit button{
+  padding:8px;
+margin-left:10px;
+background-color: #f1356d;
+border-radius: 8px;
+border: transparent;
+font-size:18px;
+color:white
+}
+.cancel{
+  padding:8px;
+  margin-left:10px;
+  background-color: #f1356d;
+  border-radius: 8px;
+  border: transparent;
+  font-size:18px;
+  color:white;
+  text-decoration: none;
+}
+.edit h1 {
+  color: #f1356d;
+}
+.edit .links {
+  margin-left: auto;
+}
+.edit a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.edit a:hover {
+  color: #f1356d;
+}
